@@ -1,0 +1,29 @@
+.clearbutton {
+    background-color: #eee;
+    border: none;
+    padding: 0rem;
+    font-size: 0.9rem;
+    width: 5em;
+    height: 2em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #eee;
+    cursor: pointer;
+   }
+   
+   .clearbutton:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   .clearbutton:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   .clearbutton:disabled {
+    cursor: auto;
+    color: grey;
+   }
